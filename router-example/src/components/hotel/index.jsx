@@ -27,7 +27,7 @@ const hotelsData = [
 export default function Hotel() {
     return (
         <>
-            <div className="min-h-[100vh] pb-14 pt-10 md:pb-24 " id="hotels">
+            <div className="min-h-[100vh] pb-14 pt-10 md:pb-24">
                 <div className="container mx-auto pt-4">
                     <Hotels hotels={hotelsData} />
                 </div>
