@@ -5,6 +5,7 @@ import About from "./components/about"
 import Tour from "./components/tour"
 import Hotel from "./components/hotel"
 import AviaChiptalar from "./components/aviatickets"
+import PopularCities from "./components/popularCities"
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
       <Tour />
       <Hotel />
       <AviaChiptalar />
+      <PopularCities />
     </>
   )
 }

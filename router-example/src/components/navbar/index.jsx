@@ -18,7 +18,7 @@ export default function Navbar() {
                     <li><a href="#aboutUs" className="hover:text-[rgb(242,101,34)]">Biz haqimizda</a></li>
                     <li><a href="#tours" className="hover:text-[rgb(242,101,34)]">Turlar</a></li>
                     <li><a href="#hotels" className="hover:text-[rgb(242,101,34)]">Mehmonxonalar</a></li>
-                    <li><a href="#" className="hover:text-[rgb(242,101,34)]">Aviachiptalar</a></li>
+                    <li><a href="#aviticket" className="hover:text-[rgb(242,101,34)]">Aviachiptalar</a></li>
                     <li><a href="#" className="hover:text-[rgb(242,101,34)]">Aloqa</a></li>
                 </ul>
 
@@ -36,7 +36,7 @@ export default function Navbar() {
                         <li><a href="#aboutUs" className="hover:text-[rgb(242,101,34)]">Biz haqimizda</a></li>
                         <li><a href="#tours" className="hover:text-[rgb(242,101,34)]">Turlar</a></li>
                         <li><a href="#hotels" className="hover:text-[rgb(242,101,34)]">Mehmonxonalar</a></li>
-                        <li><a href="#" className="hover:text-[rgb(242,101,34)]">Aviachiptalar</a></li>
+                        <li><a href="#aviticket" className="hover:text-[rgb(242,101,34)]">Aviachiptalar</a></li>
                         <li><a href="#" className="hover:text-[rgb(242,101,34)]">Aloqa</a></li>
                     </ul>
                 </div>

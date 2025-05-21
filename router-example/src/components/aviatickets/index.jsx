@@ -16,7 +16,7 @@ export default function AviaChiptalar() {
 
     return (
         <>
-            <div className=" pb-14 pt-10 md:pb-24 bg-gray-100" id="hotels">
+            <div className="pb-14 pt-10 md:pb-24 bg-gray-100" id="aviticket">
                 <div className="container mx-auto pt-4">
                     <Aviatickets
                         tripType={tripType}
