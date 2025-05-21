@@ -22,3 +22,32 @@
 textarea {
     resize: none
 }
+
+/* Scrollbarni yashirish uchun */
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* src/index.css yoki App.css fayliga qo'shing */
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #f26522;
+    /* Scroll fon */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Scroll "chiziq" rangi */
+    border-radius: 10px;
+    /* border: 2px solid #f1f1f1; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
