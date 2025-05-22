@@ -29,11 +29,11 @@ export default function ContactForm() {
         const text = `
 📥 Yangi murojaat:
 
-👤 Ism: ${formData.name}
+👤 Имя: ${formData.name}
 📧 Email: ${formData.email}
-📱 Telefon: ${formData.phone}
-📝 Mavzu: ${formData.subject}
-💬 Xabar: ${formData.message}
+📱 Номер телефона: ${formData.phone}
+📝 Тема: ${formData.subject}
+💬 Сообщение: ${formData.message}
         `;
 
         const url = `https://api.telegram.org/bot${token}/sendMessage`;
@@ -85,13 +85,13 @@ export default function ContactForm() {
                 loading ? <Loader /> : <>
                     <div className="bg-white rounded-lg shadow-lg p-6">
                         <form onSubmit={handleSubmit} className="space-y-6">
-                            <InputField id="name" label="Ismingiz" type="text" value={formData.name} onChange={handleChange} />
-                            <InputField id="email" label="Email manzilingiz" type="email" value={formData.email} onChange={handleChange} />
-                            <InputField id="phone" label="Telefon raqamingiz" type="tel" value={formData.phone} onChange={handleChange} />
-                            <InputField id="subject" label="Mavzu" type="text" value={formData.subject} onChange={handleChange} />
+                            <InputField id="name" label="Ваше имя" type="text" value={formData.name} onChange={handleChange} />
+                            <InputField id="email" label="Ваш email" type="email" value={formData.email} onChange={handleChange} />
+                            <InputField id="phone" label="Ваш номер телефона" type="tel" value={formData.phone} onChange={handleChange} />
+                            <InputField id="subject" label="Тема" type="text" value={formData.subject} onChange={handleChange} />
                             <div>
                                 <label htmlFor="message" className="block text-gray-700 mb-2">
-                                    Xabaringiz
+                                    Ваше сообщение
                                 </label>
                                 <textarea
                                     id="message"
@@ -107,7 +107,7 @@ export default function ContactForm() {
                                 type="submit"
                                 className="w-full bg-gray-800 text-white py-2 rounded-lg hover:bg-opacity-90 transition duration-300"
                             >
-                                Yuborish
+                                Отправка
                             </button>
                         </form>
                     </div>

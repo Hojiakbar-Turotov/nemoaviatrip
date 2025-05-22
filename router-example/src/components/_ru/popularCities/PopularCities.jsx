@@ -5,7 +5,7 @@ export default function PopularCitie({ cities }) {
   return (
     <div className="py-8">
       <h2 className="text-2xl font-bold text-center mb-8 text-gray-800">
-        Mashhur shaharlar
+        Популярные города
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {cities.map((city, index) => (
@@ -28,7 +28,7 @@ export default function PopularCitie({ cities }) {
                 </h3>
                 <p className="text-gray-600">{city.description}</p>
                 <button className="mt-4 w-full bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors">
-                  Batafsil ma'lumot
+                  Узнать больше
                 </button>
               </div>
             </div>

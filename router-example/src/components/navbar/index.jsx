@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // Iconlar uchun
+import LanguageDropdown from "../LanguageDropdown";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar() {
     return (
         <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
             <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-                <div className="text-2xl font-bold"><img src="https://www.nemoaviatrip.uz/assets/logo_orange-BGoDxPvq.png" alt="Nemo" className="w-[60px]"/></div>
+                <div className="text-2xl font-bold"><img src="https://www.nemoaviatrip.uz/assets/logo_orange-BGoDxPvq.png" alt="Nemo" className="w-[60px]" /></div>
 
                 <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
                     <li><a href="#header" className="hover:text-[rgb(242,101,34)]">Asosiy</a></li>
@@ -22,7 +23,8 @@ export default function Navbar() {
                     <li><a href="#contact" className="hover:text-[rgb(242,101,34)]">Aloqa</a></li>
                 </ul>
 
-                <button >UZ</button>
+                <LanguageDropdown />
+
 
                 <button className="md:hidden" onClick={toggleMenu}>
                     {isOpen ? <X size={28} /> : <Menu size={28} />}

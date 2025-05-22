@@ -4,7 +4,7 @@ import CardHeader from "./CardHeader"
 const statsData = [
     {
         id: 1,
-        title: "Mamnun mijozlar",
+        title: "Довольных клиентов",
         value: "45000+",
         iconBgColor: "#F26522",
         icon: (
@@ -26,7 +26,7 @@ const statsData = [
     },
     {
         id: 2,
-        title: "Mamlakatlar",
+        title: "Стран",
         value: "30+",
         iconBgColor: "#F26522",
         icon: (
@@ -48,7 +48,7 @@ const statsData = [
     },
     {
         id: 3,
-        title: "Tajriba",
+        title: "Лет опыта",
         value: "5+ yil",
         iconBgColor: "#F26522",
         icon: (
@@ -79,17 +79,17 @@ export default function Header() {
                 <ScrollAnimated animation="animate__slideInUp">
                     <div className="text-center max-w-4xl mx-auto px-4 text-white">
                         <h1 className="text-4xl md:text-6xl font-bold mb-6 animate_animated animate_fadeInUp">
-                            Sayohatingizni biz bilan boshlang
+                            Начните путешествие с нами
                         </h1>
                         <p className="text-xl md:text-2xl mb-12 animate_animated animate_fadeInUp animate_delay-1s">
-                            Nemo Travel - huzur uchun yo'l
+                            Nemo Travel - путь к комфорту
                         </p>
                     </div>
                 </ScrollAnimated>
                 <div className="p-6">
                     <CardHeader
                         stats={statsData}
-                        buttonText="Batafsil ma'lumot"
+                        buttonText="Узнать больше"
                     />
                 </div>
             </div>

@@ -5,22 +5,22 @@ const hotelsData = [
         imgSrc: "https://www.nemoaviatrip.uz/assets/hayat-CA2EFkgE.jpg",
         alt: "Hyatt Regency Tashkent",
         name: "Hyatt Regency Tashkent",
-        address: "Navoi ko'chasi 1-uy, Toshkent",
-        description: "Zamonaviy mehmonxona markaz markazida",
+        address: "ул. Навои 1, Ташкент",
+        description: "Современный отель в центре города",
     },
     {
         imgSrc: "https://www.nemoaviatrip.uz/assets/hilton-DXtMsMxq.jpg",
         alt: "Hilton Tashkent City",
         name: "Hilton Tashkent City",
-        address: "Islom Karimov ko'chasi 2-uy, Toshkent",
-        description: "Biznes mehmonxona shahar markazida",
+        address: "ул. Ислама Каримова 2, Ташкент",
+        description: "Бизнес-отель в центре города",
     },
     {
         imgSrc: "https://www.nemoaviatrip.uz/assets/cityplace-CQIF01DD.jpg",
         alt: "City Palace Hotel",
         name: "City Palace Hotel",
-        address: "Amir Temur ko'chasi 15-uy, Toshkent",
-        description: "Qulay mehmonxona diqqatga sazovor joylar yaqinida",
+        address: "ул. Амира Темура 15, Ташкент",
+        description: "Уютный отель рядом с достопримечательностями",
     },
 ];
 export default function Hotel() {

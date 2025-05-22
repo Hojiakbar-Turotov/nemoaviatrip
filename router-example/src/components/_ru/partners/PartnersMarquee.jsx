@@ -1,6 +1,6 @@
 import ScrollAnimated from "../ScrollAnimated";
 
-const PartnersMarquee = ({ title = "Hamkorlarimiz", partners = [] }) => {
+const PartnersMarquee = ({ title = "Наши партнёры", partners = [] }) => {
   const scrollingPartners = [...partners, ...partners];
 
   return (

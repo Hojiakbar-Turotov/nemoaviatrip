@@ -3,7 +3,8 @@ import ScrollAnimated from "../../ScrollAnimated";
 export default function Team({ members }) {
     return (
         <div className="mb-16 mt-10 pt-8">
-            <h2 className="text-3xl font-bold text-center mb-12">Bizning jamoa</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">Наша команда
+</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {members.map((member, index) => (
                     <>

@@ -17,7 +17,7 @@ export default function Tours({ tours }) {
                         <p className="text-gray-700 mb-4">{description}</p>
                         <div className="flex justify-between items-center">
                             <button className="bg-[#F26522] text-white px-4 py-2 rounded-full hover:bg-[#E85A1F] transition-colors cursor-pointer">
-                                <a href="#contact">Batafsil</a>
+                                <a href="#contact">Подробнее</a>
                             </button>
                         </div>
                     </div>
