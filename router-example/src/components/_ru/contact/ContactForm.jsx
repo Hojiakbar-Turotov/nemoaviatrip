@@ -24,7 +24,7 @@ export default function ContactForm() {
         e.preventDefault();
 
         const token = "7755732780:AAHn3j5Xxn7RGc9HzkmV9bjwhDSrmFdJrdE"; // ← Bot token
-        const chatId = "-4877658759"; // ← Guruh chat ID
+        const chatId = "-1002696832281"; // ← Guruh chat ID
 
         const text = `
 📥 Yangi murojaat:
